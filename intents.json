@@ -1,0 +1,42 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hallo","hey","selamat siang","selamat sore","selamat malam"],
+  "responses": ["Hi Sobat, terimakasih telah berinteraksi dengan official akun Kementerian Kesehatan Republik Indonesia, ada yang bisa saya bantu ?","Hallo kak,ada yang bisa saya bantu ?","Hai kak, ada yang bisa saya bantu ?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["sampai jumpa","selamat tinggal","saya pergi dulu","bye","ciao", "sekian dan terima kasih"],
+  "responses": ["Terima kasih sudah menghubungi kami, sampai jumpa lagi.","Terima Kasih,semoga hari anda menyenangkan","Terima Kasih, sampai jumpa lagi dan jangan lupa jaga kesehatan"]
+  },
+  {"tag": "nama",
+  "patterns": ["Siapa anda?","saya berbicara dengan siapa?","nama anda siapa?","dengan siapa saya berbicara?"],
+  "responses": ["Saya Chat-bot Menkes !","Saya Chat-bot Assistant dari Menkes !","Anda bisa panggil saya Neural !"]
+  },
+  {"tag": "hours",
+  "patterns": ["Berapa jam layanan?","Kapan layanan dibuka?","Berapa jam layanan buka?","Jam operasional"],
+  "responses": ["24 Jam Setiap Hari !","Kami selalu buka ! ","Kami selalu beroperasi ! "]
+  },
+  {"tag": "Keluhan",
+  "patterns": ["Saya mengalami","Saya memiliki ciri-ciri ","saya merasa demam","saya merasa tidak enak badan"],
+  "responses": ["Tolong segera cek suhu badan anda,jika di atas 37 derajat celcius harap hubungi kami di no hp : 081234567890","Jika anda kesulitan bernafas silahkan hubungi ke konsultan kami yang sedang beroperasi no hp : 081234567890","Silahkan langsung hubungi cs kami yang sedang beroperasi no hp : 081234567890"]
+  },
+  {"tag": "umur",
+  "patterns": ["umur anda","seberapa tua","umur anda berapa","umur kamu"],
+  "responses": ["21 tahun !","Pencipta saya berumur 21 tahun !","Saya diciptakan pada tanggal 30 Juni 2020 !"]
+  },
+  {"tag": "penanganan",
+  "patterns": ["apa yang harus saya lakukan","penanganan pertama","saya harus bagaimana","sebaiknya saya bagaimana","sepertinya saya positive","sepertinya saya positif","saya covid","sepertinya saya covid"],
+  "responses": ["Harap melakukan isolasi mandiri kemudian hubungi operator kami untuk tindakan yang lebih lanjut no hp : 081234567890","Tetap di rumah dan hubungi operator kami di no hp : 081234567890","Harap jangan melakukan kontak dengan siapa pun dan segera hubungi kami di no hp : 081234567890"]
+  },
+  {"tag": "gejala",
+  "patterns": ["apa saja gejala","apa saja ciri-ciri","gejala umum","apa saja","apa ciri-ciri", "bagaimana covid-19"],
+  "responses": ["Gejala umum covid-19 yaitu batuk, demam, sulit bernafas, sakit kepala dan anosmia","Silahkan kunjungi https://www.kemkes.go.id/folder/view/full-content/structure-faq.html","Gejala umum berupa demam 380C, batuk kering, dan sesak napas. Jika ada orang yang dalam 14 hari sebelum muncul gejala tersebut pernah melakukan perjalanan ke negara terjangkit, atau pernah merawat/kontak erat dengan penderita COVID-19, maka terhadap orang tersebut akan dilakukan pemeriksaan laboratorium lebih lanjut untuk memastikan diagnosisnya."]
+  },
+  {"tag": "pengobatan",
+  "patterns": ["obat","obat apa yang di butuhkan","apa yang saya butuhkan","bagaimana obatnya"],
+  "responses": ["Obat yang paling ampuh adalah istirahat dan tetaplah terhidrasi, jika gejala semakin parah harap hubungi no hp : 081234567890","Jika mengalami kondisi ringan harap minum parasetamol, jika gejala semakin parah harap hubungi no hp : 081234567890","Istirahat yang cukup dan lakukan isolasi mandiri, jika gejala semakin parah harap hubungi no hp : 081234567890"]
+  },
+  {"tag": "covid19",
+  "patterns": ["apa itu covid-19?","apa itu covid","covid itu apa","apa itu corona?","penyakit corona itu apa", "penyakit covid itu apa"],
+  "responses": ["Penyakit virus corona (COVID-19) adalah penyakit menular yang disebabkan oleh virus corona yang baru-baru ini ditemukan.","Coronavirus merupakan keluarga besar virus yang menyebabkan penyakit pada manusia dan hewan. Pada manusia biasanya menyebabkan penyakit infeksi saluran pernapasan, mulai flu biasa hingga penyakit yang serius seperti Middle East Respiratory Syndrome (MERS) dan Sindrom Pernafasan Akut Berat/ Severe Acute Respiratory Syndrome (SARS). Coronavirus jenis baru yang ditemukan pada manusia sejak kejadian luar biasa muncul di Wuhan Cina, pada Desember 2019, kemudian diberi nama Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-COV2), dan menyebabkan penyakit Coronavirus Disease-2019 (COVID-19).","Covid-19 adalah penyakit menular yang di sebabkan oleh virus corona sebagian besar orang yang tertular COVID-19 akan mengalami gejala ringan hingga sedang, dan akan pulih tanpa penanganan khusus."]
+  }
+]}
